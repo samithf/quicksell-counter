@@ -1,10 +1,13 @@
-import "./App.css";
 import Counter from "./components/Counter";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Counter start={5} max={20} />
+      <Counter />
+
+      {/* with initial values */}
+      {/* <Counter start={50} max={100} /> */}
     </div>
   );
 }
