@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: stretch;
+  width: 180px;
+  height: 56px;
+}
+
+.child {
+  border: none;
+  outline: none;
+  flex: 0 1 60px;
+  min-width: 0;
+  font-weight: 900;
+  font-size: 21px;
+}
+
+.child:first-child {
+  background-color: #ffffff;
+  color: #b24242;
+  border: 1px solid #b24242;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  cursor: pointer;
+}
+
+.child:last-child {
+  background-color: #b24242;
+  color: #ffffff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+input {
+  background-color: #fbe8e8;
+  color: #b24242;
+  border-top: 1px solid #b24242 !important;
+  border-bottom: 1px solid #b24242 !important;
+  text-align: center;
+}
